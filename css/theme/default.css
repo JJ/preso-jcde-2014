@@ -20,10 +20,10 @@ body {
   background: #CD70FF;
   background: -moz-radial-gradient(center, circle cover, #9500A8 0%, #CD70FF 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #9500A8), color-stop(100%, #CD70FF));
-  background: -webkit-radial-gradient(center, circle cover, #9500A8 0%, #CD70FF 100%);
+  background: -webkit-radial-gradient(center, circle cover, #CD70FF 0%, #9500A8 100%);
   background: -o-radial-gradient(center, circle cover, #9500A8 0%, #CD70FF 100%);
   background: -ms-radial-gradient(center, circle cover, #9500A8 0%, #CD70FF 100%);
-  background: radial-gradient(center, circle cover, #9500A8 0%, #CD70FF 100%);
+  background: radial-gradient(center, circle cover, #CD70FF 0%, #9500A8 100%);
   background-color: #2b2b2b; }
 
 .reveal {
@@ -52,7 +52,6 @@ body {
   font-family: "Quicksand", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   text-shadow: 0px 0px 6px rgba(0, 136, 136, 0.2); }
 
 .reveal h1 {
